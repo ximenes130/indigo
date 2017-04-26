@@ -6,7 +6,7 @@ layout: page
 
 <p>Márcia Regina, 21 anos, Goiás, estudante de Ciência da Computação</p>
 
-![James Image]({{ site.url }}/{{ site.picture }})
+![Profilew Image]({{ site.url }}/{{ site.wendel }})
 
 <p>Wendel Ribeiro, 24 anos, Brasília, estudante de CiÊncia da Computação.</p>
 
