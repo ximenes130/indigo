@@ -1,9 +1,9 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Márcia && Wendel 
+bio: "Eu adoraria mudar o mundo, mas não me deram o código-fonte."
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Um blog sobre tecnologia e coisas relacionadas
 
 # if it's an external image, update below for true
 # better with square images
@@ -34,36 +34,36 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: marciaregina29
+twitter: wendelribi
 # google: mygoogle
-# instagram: myinstagram
+instagram: marciia_regiina
 # pinterest: mypinterest
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: marciaregi
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: medium
 # vimeo: myvimeo
-email: myemail@gmail.com
+email: wendelribi@gmail.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    marciaregina:
+        name: Márcia Regina
+        bio: "Eu adoraria mudar o mundo, mas não me deram o código-fonte."
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
+        twitter: CRFRegina
+    wendelribi:
+        name: Wendel Ribeiro
+        bio: "Eu adoraria mudar o mundo, mas não me deram o código-fonte."
         external-image: false
         picture: assets/images/james.jpg
-        twitter: jamesfoster
+        twitter: wendelribi
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -103,7 +103,6 @@ gems:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-feed
-  - jemoji
 
 jekyll-mentions:
     base_url: https://github.com

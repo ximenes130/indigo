@@ -1,7 +1,7 @@
----
-title: "Markdown Common Elements"
+--
+title: "Elementos comuns do Markdown"
 layout: post
-date: 2016-02-24 22:44
+date: 2017-04-24 17:44
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
@@ -9,149 +9,146 @@ tag:
 - elements
 star: true
 category: blog
-author: johndoe
-description: Markdown summary with different options
+author: wendelribi
+description: Resumo de markdown com diferentes opções
 ---
 
-## Summary:
+## Resumo:
 
-You can pick as item to see how to apply in markdown.
+Você pode escolher como item para ver como aplicar em markdown.
 
-### Comum Elements
-- [Basic formatting](#basic-formatting)
-- [Headings](#headings)
-- [Lists](#lists)
-- [Paragraph Modifiers](#paragraph-modifiers)
-- [Urls](#urls)
-- [Horizontal Rule](#horizontal-rule)
-- [Images](#images)
-- [Code](#code)
-
+### Elementos Comum
+- [Formatação básica](# formatação básica)
+- [Cabeçalhos](# cabeçalhos)
+- [Listas](# listas)
+- [Modificadores de parágrafo](# parágrafo-modificadores)
+- [Urls](# urls)
+- [Regra Horizontal](# regra horizontal)
+- [Imagens](# imagens)
+- [Código](# código)
 ---
 
-## Basic formatting
+## Formatação básica
 
-This note **demonstrates** some of what [Markdown][1] is *capable of doing*.
+Esta nota ** demonstra ** algum do que [Markdown] [1] é * capaz de fazer *.
 
-And that's how to do it.
+E é assim que se faz.
 
-{% highlight html %}
-This note **demonstrates** some of what [Markdown][some/link] is *capable of doing*.
+{% highlight html%}
+Esta nota ** demonstra ** algum do que [Markdown] [algum / link] é * capaz de fazer *.
 {% endhighlight %}
 
 ---
+##Cabeçalhos
 
-## Headings
+Existem seis níveis de títulos. Eles correspondem aos seis níveis de cabeçalhos HTML. Você já deve ter notado eles já na página. Cada nível abaixo usa mais um caractere de hash. Mas estamos usando apenas 4 deles.
 
-There are six levels of headings. They correspond with the six levels of HTML headings. You've probably noticed them already in the page. Each level down uses one more hash character. But we are using just 4 of them.
+# Os cabeçalhos podem ser pequenos
 
-# Headings can be small
+## Os cabeçalhos podem ser pequenos
 
-## Headings can be small
+### Os cabeçalhos podem ser pequenos
 
-### Headings can be small
+#### Os cabeçalhos podem ser pequenos
 
-#### Headings can be small
-
-{% highlight raw %}
+{% highlight raw%}
 # Heading
 ## Heading
-### Heading
-#### Heading
+### Título
+#### Título
 {% endhighlight %}
 
 ---
 
-## Lists
+## Listas
 
-### Ordered list
+### Lista ordenada
 
 1. Item 1
-2. A second item
-3. Number 3
+2. Um segundo item
+3. Nº 3
 
-{% highlight raw %}
+{% highlight raw%}
 1. Item 1
-2. A second item
-3. Number 3
+2. Um segundo item
+3. Número 3
 {% endhighlight %}
 
-### Unordered list
+### Lista desordenada
 
-* An item
-* Another item
-* Yet another item
-* And there's more...
+* Um item
+* Outro item
+* Ainda outro item
+* E há mais ...
 
-{% highlight raw %}
-* An item
-* Another item
-* Yet another item
-* And there's more...
+{% highlight raw%}
+* Um item
+* Outro item
+* Ainda outro item
+* E há mais ...
 {% endhighlight %}
 
 ---
 
-## Paragraph modifiers
+## Modificadores de parágrafo
 
-### Quote
+### Citação
 
-> Here is a quote. What this is should be self explanatory. Quotes are automatically indented when they are used.
+> Aqui está uma citação. O que isto deve ser auto-explicativo. As citações são automaticamente recuadas quando são usadas.
 
-{% highlight raw %}
-> Here is a quote. What this is should be self explanatory.
-{% endhighlight raw %}
+{% highlight raw%}
+> Aqui está uma citação. O que isto deve ser auto-explicativo.
+{% endhighlight raw%}
 
 ---
 
 ## URLs
 
-URLs can be made in a handful of ways:
+Os URLs podem ser feitos de várias maneiras:
 
-* A named link to [Mark It Down][3].
-* Another named link to [Mark It Down](http://markitdown.net/)
-* Sometimes you just want a URL like <http://markitdown.net/>.
+* Um link com nome para [Mark It Down] [3].
+* Outro link com nome para [Mark It Down](http://markitdown.net/)
+* Às vezes você só quer um URL como <http://markitdown.net/>.
+
+{% highlight raw%}
+* Um link com nome para [MarkItDown] [3].
+* Outro link com nome para [MarkItDown](http://markitdown.net/)
+* Às vezes você só quer um URL como <http://markitdown.net/>.{% endhighlight %}
+
+---
+
+## Regra horizontal
+
+Uma regra horizontal é uma linha que atravessa o meio da página.
+Às vezes é útil para quebrar as coisas.
 
 {% highlight raw %}
-* A named link to [MarkItDown][3].
-* Another named link to [MarkItDown](http://markitdown.net/)
-* Sometimes you just want a URL like <http://markitdown.net/>.
+---
 {% endhighlight %}
 
 ---
 
-## Horizontal rule
+## Imagens
 
-A horizontal rule is a line that goes across the middle of the page.
-It's sometimes handy for breaking things up.
-
-{% highlight raw %}
----
-{% endhighlight %}
-
----
-
-## Images
-
-Markdown can also contain images. I'll need to add something here sometime.
+Markdown também pode conter imagens. Preciso adicionar algo aqui algum dia.
 
 {% highlight raw %}
 ![Markdowm Image][/image/url]
 {% endhighlight %}
 
-![Markdowm Image][6]
+! [Imagem de Markdown] [6]
 
-*Figure Caption*?
+* Legenda da figura *?
 
 {% highlight raw %}
 ![Markdowm Image][/image/url]
-<figcaption class="caption">Photo by John Doe</figcaption>
+<figcaption class="caption">Foto do Homer</figcaption>
 {% endhighlight %}
 
 ![Markdowm Image][6]
-<figcaption class="caption">Photo by John Doe</figcaption>
+<figcaption class="caption">Foto do Homer</figcaption>
 
-*Bigger Images*?
+* Imagens maiores *?
 
 {% highlight raw %}
 ![Markdowm Image][/image/url]{: class="bigger-image" }
@@ -161,24 +158,24 @@ Markdown can also contain images. I'll need to add something here sometime.
 
 ---
 
-## Code
+Código
 
-A HTML Example:
+Um exemplo de HTML:
 
 {% highlight html %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Documento</title>
 </head>
 <body>
-    <h1>Just a test</h1>
+    <h1>Test</h1>
 </body>
 </html>
 {% endhighlight %}
 
-A CSS Example:
+Um exemplo CSS:
 
 {% highlight css %}
 pre {
@@ -197,7 +194,7 @@ code, pre, tt {
 }
 {% endhighlight %}
 
-A JS Example:
+Um exemplo JS:
 
 {% highlight js %}
 // Sticky Header

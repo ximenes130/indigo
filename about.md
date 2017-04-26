@@ -1,46 +1,37 @@
 ---
-title: About
+title: Sobre
 layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Márcia Regina, 21 anos, Goiás, estudante de Ciência da Computação</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+![James Image]({{ site.url }}/{{ site.picture }})
 
-<h2>Skills</h2>
+<p>Wendel Ribeiro, 24 anos, Brasília, estudante de CiÊncia da Computação.</p>
+
+<h2>Habilidades</h2>
 
 <ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
+	<li>HTML</li>
+	<li>Android</li>
 	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
+	<li>Css Frameworks (Bootstrap, Materialize)</li>
 	<li>Git</li>
 	<li>PHP</li>
 	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
+	<li>MySQL</li>
+	<li>Java</li>
+	<li>Redes de computadores</li>
+	<li>Engenharia de Software<li>
 </ul>
 
-<h2>Projects</h2>
+<h2>Projetos</h2>
 
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+	<li><a href="https://github.com/marciaregi/Compiladores">Compiladores</a></li>
+	<li><a href="https://github.com/marciaregi/paradigmas">Paradigmas</a></li>
+	<li><a href="https://github.com/wendelribi/Grafos">Grafos</a></li>
+	<li><a href="https://github.com/wendelribi/useCase">useCase</a></li>
+
 </ul>

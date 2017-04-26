@@ -1,65 +1,66 @@
 ---
-title: "Markdown Extra Components"
+title: "Markdown Componentes Extra"
 layout: post
-date: 2016-02-24 22:48
+date: 2017-04-24 22:48
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
 - markdown
-- components
+- componentes
 - extra
 category: blog
-author: jamesfoster
-description: Markdown summary with different options
+author: CRFRegina
+description: Resumo de Markdown com diferentes opções
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
 
-## Summary:
 
-You can pick as item to see how to apply in markdown.
+## Resumo:
 
-#### Especial Elements
-- [Evidence](#evidence)
-- [Side-by-Side](#side-by-side)
-- [Star](#star)
-- [Especial Breaker](#especial-breaker)
-- [Spoiler](#spoiler)
+Você pode escolher como item para ver como aplicar em markdown.
 
-#### External Elements
-- [Gist](#gist)
-- [Codepen](#codepen)
-- [Slideshare](#slideshare)
-- [Videos](#videos)
+#### Elementos Especiais
+- [Evidência](# evidência)
+- [lado a lado](# lado a lado)
+- [Estrela](# estrela)
+- [Especial Breaker](# especial-breaker)
+- [Spoiler](# spoiler)
 
+#### Elementos Externos
+- [Gist](# essência)
+- [Codepen](# codepen)
+- [Slideshare](# slideshare)
+- [Vídeos](# vídeos)
 ---
+
 
 ## Evidence
 
-You can try the evidence!
+Você pode tentar a evidência!
 
-<span class="evidence">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span>
+<span class = "evidence"> Os parágrafos podem ser escritos assim. Um parágrafo é o bloco básico de Markdown. Um parágrafo é o que o texto vai se transformar quando não há nenhuma razão que deve se tornar qualquer outra coisa. </span>
 
 {% highlight html %}
-<span class="evidence">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span>
+<span class="evidence">Os parágrafos podem ser escritos assim. Um parágrafo é o bloco básico de Markdown. Um parágrafo é o que o texto se transformará em quando não há nenhuma razão que deve se tornar qualquer outra coisa.</span>
 {% endhighlight %}
 
 ---
 
-## Side-by-side
+## Lado a lado
 
-Like the [Medium](https://medium.com/) component.
+Como o componente [Medium](https://medium.com/).
 
-**Image** on the left and **Text** on the right:
+** Imagem ** à esquerda e ** Texto ** à direita:
 
 {% highlight html %}
 <div class="side-by-side">
     <div class="toleft">
         <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
+        <figcaption class="caption">Foto Wendel Ribeiro</figcaption>
     </div>
 
     <div class="toright">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p> TEXTO QUALQUER: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 </div>
 {% endhighlight %}
@@ -67,25 +68,25 @@ Like the [Medium](https://medium.com/) component.
 <div class="side-by-side">
     <div class="toleft">
         <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
+        <figcaption class="caption">oto Wendel Ribeiro</figcaption>
     </div>
 
     <div class="toright">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>TEXTO QUALQUER: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 </div>
 
-**Text** on the left and **Image** on the right:
+Texto à esquerda e Imagem à direita:
 
 {% highlight html %}
 <div class="side-by-side">
     <div class="toleft">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>TEXTO QUALQUER: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 
     <div class="toright">
         <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
+        <figcaption class="caption">Foto Márcia Regina</figcaption>
     </div>
 </div>
 {% endhighlight %}
@@ -97,15 +98,14 @@ Like the [Medium](https://medium.com/) component.
 
     <div class="toright">
         <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
+        <figcaption class="caption">Foto Márcia Regina</figcaption>
     </div>
 </div>
 
 ---
+## Estrela
 
-## Star
-
-You can give evidence to a post. Just add the tag to the markdown file.
+Você pode dar provas para um post. Basta adicionar a tag ao arquivo de remarcação.
 
 {% highlight raw %}
 star: true
@@ -115,7 +115,7 @@ star: true
 
 ## Especial Breaker
 
-You can add a especial *hr* to your text.
+Você pode adicionar um * hr * especial ao seu texto.
 
 {% highlight html %}
 <div class="breaker"></div>
@@ -127,7 +127,7 @@ You can add a especial *hr* to your text.
 
 ## Spoiler
 
-You can add an especial hidden content that appears on hover.
+Você pode adicionar um conteúdo oculto especial que aparece em nuvem.
 
 {% highlight html %}
 <div class="spoiler"><p>your content</p></div>
@@ -139,7 +139,7 @@ You can add an especial hidden content that appears on hover.
 
 ## Gist
 
-You can add Gists from github.
+Você pode adicionar Gists de github.
 
 {% highlight raw %}
 { % gist sergiokopplin/91ff4220480727b47224245ee2e9c291 % }
@@ -149,9 +149,9 @@ You can add Gists from github.
 
 ---
 
-## Codepen
+## Caneta
 
-You can add Pens from Codepen.
+Você pode adicionar Canetas de Codepen.
 
 {% highlight html %}
 <p data-height="268" data-theme-id="0" data-slug-hash="gfdDu" data-default-tab="result" data-user="chriscoyier" class='codepen'>
@@ -167,7 +167,7 @@ You can add Pens from Codepen.
 
 ## Slideshare
 
-Add your presentations here!
+Adicione suas apresentações aqui!
 
 {% highlight html %}
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/hqDhSJoWkrHe7l" width="560" height="310" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
@@ -177,11 +177,11 @@ Add your presentations here!
 
 ---
 
-## Videos
+## Vídeos
 
-Do you want some videos? Youtube, Vimeo or Vevo? Copy the embed code and paste on your post!
+Você quer alguns vídeos? Youtube, Vimeo ou Vevo? Copie o código embed e cole em sua postagem!
 
-**Example**
+**Exemplo**
 
 {% highlight html %}
 <iframe width="560" height="310" src="https://www.youtube.com/embed/r7XhWUDj-Ts" frameborder="0" allowfullscreen></iframe>
