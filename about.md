@@ -8,7 +8,7 @@ layout: page
 
 ![Profilew Image]({{ site.url }}/{{ site.wendel }})
 
-<p>Wendel Ribeiro, 24 anos, Brasília, estudante de CiÊncia da Computação.</p>
+<p>Wendel Ribeiro, 24 anos, Brasília, estudante de Ciência da Computação.</p>
 
 <h2>Habilidades</h2>
 
@@ -24,7 +24,7 @@ layout: page
 	<li>Java</li>
 	<li>Redes de computadores</li>
 	<li>Engenharia de Software<li>
-</ul>
+
 
 <h2>Projetos</h2>
 
@@ -36,10 +36,10 @@ layout: page
 
 </ul>
 
-Deixa sua mensagem!
+<h2>Deixa sua mensagem!<h2>
 <form action="https://formspree.io/rcsilva.marcia@gmail.com"
   method="POST">
-<input type="text" name="nome">
-<input type="email" name="_replyto">
-<input type="submit" value="Enviar">
+ <input type="email" name="email" placeholder="Seu email">
+<textarea name="message" placeholder="Sua mensagem"></textarea>
+  <button type="submit">Enviar</button>
 </form>
