@@ -56,7 +56,7 @@ Como o componente [Medium](https://medium.com/).
 {% highlight html %}
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
+        <img class="image" src="{{ site.url }}/{{ site.wendel }}" alt="Alt Text">
         <figcaption class="caption">Foto Wendel Ribeiro</figcaption>
     </div>
 
@@ -68,8 +68,8 @@ Como o componente [Medium](https://medium.com/).
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
-        <figcaption class="caption">oto Wendel Ribeiro</figcaption>
+        <img class="image" src="{{ site.url }}/{{ site.wendel }}" alt="Alt Text">
+        <figcaption class="caption">Foto Wendel Ribeiro</figcaption>
     </div>
 
     <div class="toright">
