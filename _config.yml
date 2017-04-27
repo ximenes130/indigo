@@ -13,9 +13,9 @@ wendel: assets/images/profilew.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resumo: true
-resumo-external: true
-resumo-url: https://google.com/?q=my+resume
+resume: true
+resume-external: true
+resume-url: https://google.com/?q=my+resume
 
 url: https://marciaregi.github.io
 # your url: http://USERNAME.github.io
@@ -57,13 +57,13 @@ email: wendelribi@gmail.com
 authors:
     marciaregina:
         name: Márcia Regina
-        bio: "Eu adoraria mudar o mundo, mas não me deram o código-fonte."
+        bio: "“Se tá ruim pra mim, imagina pra quem usa Internet Explorer.“"
         external-image: false
         picture: assets/images/profile.jpg
         twitter: CRFRegina
     wendelribi:
         name: Wendel Ribeiro
-        bio: "Eu adoraria mudar o mundo, mas não me deram o código-fonte."
+        bio: "“A diferença entre os vírus e o Windows é que os vírus causam menos prejuízo.“"
         external-image: false
         picture: assets/images/profilew.jpg
         twitter: wendelribi

@@ -1,4 +1,4 @@
---
+---
 title: "Índigo, tema jekyll minimalista"
 layout: post
 date: 2017-04-23 22:10
@@ -10,7 +10,7 @@ hidden: true # don't count this post in blog pagination
 description: "Este é um modelo simples e minimalista para Jekyll para aqueles que gostam de comer macarrão."
 jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 category: project
-author: CRFRegina
+author: marciaregina
 externalLink: false
 ---
 
@@ -31,5 +31,5 @@ O que tem dentro?
 
 ---
 
-[Check it out](http://sergiokopplin.github.io/indigo/) here.
-Se precisar de alguma ajuda, [tell me](http://github.com/sergiokopplin/indigo/issues).
+[Confira](http://marciaregi.github.io/indigo/) aqui.
+Se precisar de alguma ajuda, [conte-me](http://github.com/marciaregi/indigo/issues).

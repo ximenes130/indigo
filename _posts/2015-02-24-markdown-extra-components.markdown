@@ -9,7 +9,7 @@ tag:
 - componentes
 - extra
 category: blog
-author: CRFRegina
+author: marciaregina
 description: Resumo de Markdown com diferentes opções
 comments: true
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
@@ -185,10 +185,10 @@ Você quer alguns vídeos? Youtube, Vimeo ou Vevo? Copie o código embed e cole 
 **Exemplo**
 
 {% highlight html %}
-<iframe width="560" height="310" src="https://www.youtube.com/embed/r7XhWUDj-Ts" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="310" src="https://www.youtube.com/watch?v=laSlza_WpVk" frameborder="0" allowfullscreen></iframe>
 {% endhighlight %}
 
-<iframe width="560" height="310" src="https://www.youtube.com/embed/r7XhWUDj-Ts" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="310" src="https://www.youtube.com/watch?v=laSlza_WpVk" frameborder="0" allowfullscreen></iframe>
 
 [1]: http://daringfireball.net/projects/markdown/
 [2]: http://www.fileformat.info/info/unicode/char/2163/index.htm
